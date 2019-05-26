@@ -1,13 +1,8 @@
 {
-  "name": "Web-Project-Starter",
+  "name": "@buildtip/web-project-starter",
   "version": "0.0.0",
   "description": "Select your project type and use any boilerplate to get started",
   "homepage": "",
-  "author": {
-    "name": "anikethsaha",
-    "email": "anik220798@gmail.com",
-    "url": ""
-  },
   "files": [
     "generators",
     "dist"
@@ -19,7 +14,12 @@
   "keywords": [
     "boilerplates",
     "starter",
-    "yeoman-generator"
+    "yeoman-generator",
+    "web",
+    "javascript",
+    "react",
+    "node",
+    "mongodb"
   ],
   "devDependencies": {
     "@types/chalk": "^2.2.0",
@@ -73,6 +73,9 @@
     "build": "parcel build --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js ",
     "watch": "parcel watch --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js "
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildtip/web-project-starter.git"
+  },
   "license": "Apache-2.0"
 }
