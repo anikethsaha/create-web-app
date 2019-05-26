@@ -1,0 +1,78 @@
+{
+  "name": "Web-Project-Starter",
+  "version": "0.0.0",
+  "description": "Select your project type and use any boilerplate to get started",
+  "homepage": "",
+  "author": {
+    "name": "anikethsaha",
+    "email": "anik220798@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "generators",
+    "dist"
+  ],
+  "bin": {
+    "web-project-starter": "./dist/cli.js"
+  },
+  "main": "dist/cli.js",
+  "keywords": [
+    "boilerplates",
+    "starter",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^12.0.2",
+    "@types/yeoman-generator": "^3.1.3",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-xo": "^0.25.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^23.5.0",
+    "lint-staged": "^8.1.7",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.15.2",
+    "typescript": "^3.4.5",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 8.0.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.132",
+    "chalk": "^2.1.0",
+    "lodash": "^4.17.11",
+    "prettycli": "^1.4.3",
+    "yeoman-environment": "^2.3.4",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": " jest",
+    "local": " nodemon dist/cli.js",
+    "type:build": "tsc",
+    "type:watch": "tsc -w",
+    "build": "parcel build --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js ",
+    "watch": "parcel watch --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js "
+  },
+  "repository": "",
+  "license": "Apache-2.0"
+}

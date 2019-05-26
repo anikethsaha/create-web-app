@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Typescript + Mongodb + Express + Node</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Hello TMEN</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function () {
+            // Create the chart
+            $.ajax({
+                url: '/charts/data',
+                type: 'get',
+                dataType: "text",
+                success: res => {
+
+                    res = JSON.parse(res);
+                    var plotOptionsData = {};
+                    var drillNameData = {};
+
+                    for (let i = 0; i < res.plotoptions.length; i++) {
+                        if (typeof plotOptionsData[res.plotoptions[i].series_name] == 'undefined') {
+
+                            plotOptionsData[res.plotoptions[i].series_name] = [{
+                                "drilldown": res.plotoptions[i].drilldown,
+                                "name": res.plotoptions[i].name,
+                                "y": res.plotoptions[i].y
+                            }];
+                        } else {
+                            plotOptionsData[res.plotoptions[i].series_name].push({
+                                "drilldown": res.plotoptions[i].drilldown,
+                                "name": res.plotoptions[i].name,
+                                "y": res.plotoptions[i].y
+                            })
+                        }
+
+
+                    }
+
+                    plotOptionsDataWrapper = []
+                    for (const key in plotOptionsData) {
+
+                        if (plotOptionsData.hasOwnProperty(key)) {
+                            const element = plotOptionsData[key];
+
+
+                            plotOptionsDataWrapper.push({
+                                "name": key,
+                                "data": element
+                            })
+
+
+                            for (let i = 0; i < element.length; i++) {
+                                if (typeof drillNameData[element[i].drilldown] == "undefined") {
+
+                                    for (let j = 0; j < res.drillname.length; j++) {
+                                        if (element[i].drilldown == res.drillname[j].id) {
+
+                                            drillNameData[element[i].drilldown] = {
+                                                "id": res.drillname[j].id,
+                                                "name": res.drillname[j].name,
+                                                "data": res.drillname[j].data
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+
+
+
+                    Highcharts.chart('container', {
+                        chart: {
+                            type: 'column'
+                        },
+                        title: {
+                            text: 'Basic drilldown'
+                        },
+                        xAxis: {
+                            type: 'category'
+                        },
+
+                        legend: {
+                            enabled: true
+                        },
+                        plotOptions: {
+                            series: {
+                                borderWidth: 0,
+                                dataLabels: {
+                                    enabled: true,
+                                    style: {
+                                        color: 'white',
+                                        textShadow: '0 0 2px black, 0 0 2px black'
+                                    }
+                                },
+                                stacking: 'normal'
+                            }
+                        },
+
+                        series: plotOptionsDataWrapper,
+                        drilldown: {
+                            activeDataLabelStyle: {
+                                color: 'white',
+                                textShadow: '0 0 2px black, 0 0 2px black'
+                            },
+                            series: Object.values(drillNameData)
+
+                        }
+                    });
+                }
+            })
+
+
+        });
+    </script>
+
+</body>
+
+</html>
