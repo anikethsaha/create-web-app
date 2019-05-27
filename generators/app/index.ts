@@ -39,7 +39,7 @@ export default class StarterGenerator extends Generator {
       \\_/    \\/ /    /_______//    /______/_/
 
 
-      \n Welcome to ${chalk.bold.blue("Web Project Starter")} \n
+      \n Welcome to ${chalk.bold.blue("Create Web App")} \n
 
       `);
 

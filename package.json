@@ -1,5 +1,5 @@
 {
-  "name": "@buildtip/web-project-starter",
+  "name": "@buildtip/create-web-app",
   "version": "0.0.0",
   "description": "Select your project type and use any boilerplate to get started",
   "homepage": "",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "bin": {
-    "web-project-starter": "./dist/cli.js"
+    "cwa": "./dist/cli.js"
   },
   "main": "dist/cli.js",
   "keywords": [
@@ -75,7 +75,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buildtip/web-project-starter.git"
+    "url": "git+https://github.com/buildtip/create-web-app.git"
   },
   "license": "Apache-2.0"
 }
