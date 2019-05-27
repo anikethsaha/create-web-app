@@ -52,7 +52,8 @@ export default class StarterGenerator extends Generator {
   public async prompting() {
     const done: () => {} = this.async();
     // Have Yeoman greet the user.
-    return  this.prompt(promptQuestions)
+
+     return  this.prompt(promptQuestions)
       .then(
          (answer: IAnswer) => {
           this.answers = answer;

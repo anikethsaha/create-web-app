@@ -1,6 +1,6 @@
 {
   "name": "@buildtip/create-web-app",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Select your project type and use any boilerplate to get started",
   "homepage": "",
   "files": [
@@ -67,8 +67,8 @@
     ]
   },
   "scripts": {
-    "pretest": "eslint .",
-    "test": " jest",
+    "lint": "eslint .",
+    "jest": " jest",
     "local": " nodemon dist/cli.js",
     "type:build": "tsc",
     "type:watch": "tsc -w",

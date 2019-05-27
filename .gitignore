@@ -5,4 +5,4 @@ coverage
 .cache/
 index.js
 generators/*.js
-generators/utils/*.js
+generators/app/utils/*.js

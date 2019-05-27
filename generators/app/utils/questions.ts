@@ -4,7 +4,7 @@
 const validate = (val): boolean | string => val.length > 0 ? true : "Please enter the name"
 
 
-const questions = [{
+const questions : any= [{
     type: "input",
     name: "projectName",
     message: "Please Enter Your Project Name [ Required ] :  ",
