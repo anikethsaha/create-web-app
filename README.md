@@ -1,5 +1,10 @@
 # :rocket: Create Web App
 
+[![Build Status](https://travis-ci.org/buildtip/create-web-app.svg?branch=master)](https://travis-ci.org/buildtip/create-web-app)
+[![GitHub license](https://img.shields.io/github/license/buildtip/create-web-app.svg)](https://github.com/buildtip/create-web-app)
+[![npm version](https://badge.fury.io/js/%40buildtip%2Fcreate-web-app.svg)](https://badge.fury.io/js/%40buildtip%2Fcreate-web-app)
+[![NPM Downloads](https://img.shields.io/npm/dm/%40buildtip%2Fcreate-web-app.svg?style=flat)](https://www.npmjs.com/package/%40buildtip%2Fcreate-web-app)
+
 
 > ### Under Development :warning:
 
