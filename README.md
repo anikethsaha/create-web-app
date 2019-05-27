@@ -5,6 +5,25 @@
 
 
 
+
+## Installation And Usage
+
+```bash
+# Recommended
+
+$ npm i -g @buildtip/create-web-app
+$ cwa
+
+or
+# If want to install and run it locally
+
+$ npm i --save-dev @buildtip/create-web-app
+$ npx cwa
+
+```
+
+
+
 ## About :books:
 
 This package is a **simple** node cli tool based on `yeoman generator` which when run will **simply** ask you some **simple** question and then will generate a **simple** starter project to kickstart you development
