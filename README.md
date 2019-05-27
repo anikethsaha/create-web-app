@@ -17,8 +17,7 @@ $ cwa
 or
 # If want to install and run it locally
 
-$ npm i --save-dev @buildtip/create-web-app
-$ npx cwa
+$ npx @buildtip/create-web-app
 
 ```
 
