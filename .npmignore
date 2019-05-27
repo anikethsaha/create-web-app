@@ -1,0 +1,8 @@
+coverage
+.editorconfig
+.yo-rc.json
+.cache/
+_tests_/
+*.ts
+generators/*.ts
+generators/utils/*.ts

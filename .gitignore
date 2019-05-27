@@ -1,6 +1,8 @@
 node_modules/
 coverage
 .editorconfig
-package-loc.json
 .yo-rc.json
 .cache/
+index.js
+generators/*.js
+generators/utils/*.js
