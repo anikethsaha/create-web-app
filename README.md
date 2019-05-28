@@ -67,6 +67,16 @@ This project is at very early stage and requires lots of testing, feedbacks, sug
 - Raise a PR
 
 
+### Commit Guide
+We are using [commitlint](https://commitlint.js.org/#/) for our commit conventions
+
+Our commit conventions follow this pattern
+```
+type(scope?): subject
+body?
+footer?
+
+```
 
 
 

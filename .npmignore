@@ -6,3 +6,11 @@ _tests_/
 *.ts
 generators/*.ts
 generators/utils/*.ts
+.travis.yml
+.eslint*
+.editorconfig
+commitlint.config.js
+tsconfig.json
+tslint.json
+*.yml
+.prettierrc
