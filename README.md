@@ -3,7 +3,9 @@
 [![Build Status](https://travis-ci.org/buildtip/create-web-app.svg?branch=master)](https://travis-ci.org/buildtip/create-web-app)
 [![GitHub license](https://img.shields.io/github/license/buildtip/create-web-app.svg)](https://github.com/buildtip/create-web-app)
 [![npm version](https://badge.fury.io/js/%40buildtip%2Fcreate-web-app.svg)](https://badge.fury.io/js/%40buildtip%2Fcreate-web-app)
-[![NPM Downloads](https://img.shields.io/npm/dm/%40buildtip%2Fcreate-web-app.svg?style=flat)](https://www.npmjs.com/package/%40buildtip%2Fcreate-web-app) [![Join the chat at https://gitter.im/create-web-app/community](https://badges.gitter.im/create-web-app/community.svg)](https://gitter.im/create-web-app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![NPM Downloads](https://img.shields.io/npm/dm/%40buildtip%2Fcreate-web-app.svg?style=flat)](https://www.npmjs.com/package/%40buildtip%2Fcreate-web-app)
+[![Join the chat at https://gitter.im/create-web-app/community](https://badges.gitter.im/create-web-app/community.svg)](https://gitter.im/create-web-app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-green.svg)](https://github.com/buildtip/create-web-app)
 
 
 > ### Under Development :warning:
