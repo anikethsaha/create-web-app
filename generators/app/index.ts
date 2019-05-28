@@ -19,6 +19,8 @@ import {
   createPkgJsonWithParcel,
   createPkgJsonWithWebpack
 } from './utils/pkgjsonUtils'
+import * as CFonts from 'cfonts';
+
 
 export default class StarterGenerator extends Generator {
   private answers: IAnswer
@@ -29,35 +31,28 @@ export default class StarterGenerator extends Generator {
   constructor(args, opts) {
     super(args, opts);
 
-    this.log(`
 
-                         ________       ________
-  \\\\              / /    / _____//     /        /
-   \\\\            / /    / //__        / /______
-    \\\\  / /\\    / /    / ___//       /______  /
-     \\\\/ /  \\  / /    / //_____            / /
-      \\_/    \\/ /    /_______//    /______/_/
-
-
-      \n Welcome to ${chalk.bold.blue("Create Web App")} \n
-
-      `);
-
-
-
-
-
+    CFonts.say('Create|Web App', {
+      font: 'simple3d',
+      align: 'left',
+      colors: ['yellowBright'],
+      background: 'transparent',
+      letterSpacing: 1,
+      lineHeight: 1,
+      space: true,
+      maxLength: '0',
+    });
 
   }
   public async prompting() {
     const done: () => {} = this.async();
     // Have Yeoman greet the user.
 
-     return  this.prompt(promptQuestions)
+    return this.prompt(promptQuestions)
       .then(
-         (answer: IAnswer) => {
+        (answer: IAnswer) => {
           this.answers = answer;
-          const tmppkgjsonFromAnswer : IPkgJson = {
+          const tmppkgjsonFromAnswer: IPkgJson = {
             name: answer.projectName,
             author: answer.author,
             license: answer.license,
@@ -79,7 +74,7 @@ export default class StarterGenerator extends Generator {
                 const {
                   bundler
                 } = answer
-                pkgjsonFromTemplate =  bundler == "Webpack" ? createPkgJsonWithWebpack(pkgjsonFromTemplate, tmppkgjsonFromAnswer) : bundler == "Parcel" ?  createPkgJsonWithParcel(pkgjsonFromTemplate,tmppkgjsonFromAnswer) : pkgjsonFromTemplate
+                pkgjsonFromTemplate = bundler == "Webpack" ? createPkgJsonWithWebpack(pkgjsonFromTemplate, tmppkgjsonFromAnswer) : bundler == "Parcel" ? createPkgJsonWithParcel(pkgjsonFromTemplate, tmppkgjsonFromAnswer) : pkgjsonFromTemplate
 
                 // Now will use this this.pkjson to write to the package.json file after copying of the files
                 this.pkgjson = {
@@ -96,16 +91,16 @@ export default class StarterGenerator extends Generator {
 
 
   public writing() {
-    info("DONE","Copying your project.....")
+    info("DONE", "Copying your project.....")
 
 
     this.fs.copy(
       this.templatePath(`../generators/app/templates/${this.answers.stack}`),
-      this.destinationPath(path.resolve(__dirname,this.answers.projectName))
+      this.destinationPath(path.resolve(__dirname, this.answers.projectName))
     );
-    info("DONE","Writing your dependencies and scripts.....")
+    info("DONE", "Writing your dependencies and scripts.....")
 
-    this.fs.writeJSON(`${path.resolve(__dirname,this.answers.projectName)}/package.json`,this.pkgjson)
+    this.fs.writeJSON(`${path.resolve(__dirname,this.answers.projectName)}/package.json`, this.pkgjson)
 
   }
 
