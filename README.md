@@ -125,8 +125,13 @@ $ node dist/cli
 
 ## TODOs :page_facing_up:
 
-- To prepare a TODO :grin:
+### For v1 release
 
+- Docs
+- Better CLI
+- More Tests
+- More Boilerplates
+- Code refactor
 
 
 
