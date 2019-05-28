@@ -1,6 +1,6 @@
 {
   "name": "@buildtip/create-web-app",
-  "version": "0.2.5",
+  "version": "0.4.1",
   "description": "Select your project type and use any boilerplate to get started",
   "homepage": "",
   "files": [
@@ -37,6 +37,7 @@
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-shebang": "^1.2.5",
     "prettier": "^1.15.2",
+    "standard-version": "^6.0.1",
     "typescript": "^3.4.5",
     "yeoman-assert": "^3.1.0",
     "yeoman-test": "^1.7.0"
@@ -46,6 +47,7 @@
   },
   "dependencies": {
     "@types/lodash": "^4.14.132",
+    "cfonts": "^2.4.3",
     "chalk": "^2.1.0",
     "lodash": "^4.17.11",
     "prettycli": "^1.4.3",
@@ -54,7 +56,9 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns" : ["/generators/app/templates/*"]
+    "testPathIgnorePatterns": [
+      "/generators/app/templates/*"
+    ]
   },
   "lint-staged": {
     "*.js": [
@@ -70,6 +74,7 @@
     "lint": "eslint .",
     "jest": " jest",
     "local": " nodemon dist/cli.js",
+    "release": "standard-version",
     "type:build": "tsc",
     "type:watch": "tsc -w",
     "build": "parcel build --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js ",
