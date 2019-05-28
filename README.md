@@ -76,6 +76,25 @@ type(scope?): subject
 body?
 footer?
 
+
+# type can be
+
+build
+ci
+chore
+docs
+feat
+fix
+perf
+refactor
+revert
+style
+test
+
+
+# example => feat(blog): add comment section
+
+
 ```
 
 
