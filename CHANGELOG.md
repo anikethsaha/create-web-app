@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/buildtip/create-web-app/compare/v0.4.5...v0.5.1) (2019-05-30)
+
+
+### Bug Fixes
+
+* fixed the major bug of location of the templates ([0e931bf](https://github.com/buildtip/create-web-app/commit/0e931bf))
+
+
+
 ### [0.4.5](https://github.com/buildtip/create-web-app/compare/v0.4.4...v0.4.5) (2019-05-30)
 
 
