@@ -61,7 +61,7 @@ export default class StarterGenerator extends Generator {
           }
           loading("CREATING", "Cooking your project ! Please wait ...")
           fs.readFile(
-            `../generators/app/templates/${answer.stack}/package.json`, {
+            path.join(__dirname,`../generators/app/templates/${answer.stack}/package.json`), {
               encoding: 'utf-8'
             },
             async (err, data) => {
@@ -91,8 +91,8 @@ export default class StarterGenerator extends Generator {
 
 
     this.fs.copy(
-      this.templatePath(`../generators/app/templates/${this.answers.stack}`),
-      this.destinationPath(path.resolve(__dirname, this.answers.projectName))
+      this.templatePath(path.join(__dirname,`../generators/app/templates/${this.answers.stack}`)),
+      this.destinationPath(path.resolve(this.answers.projectName))
     );
     info("DONE", "Writing your dependencies and scripts.....")
 
