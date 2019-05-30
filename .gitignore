@@ -6,4 +6,5 @@ coverage
 index.js
 generators/*.js
 generators/app/utils/*.js
-*-lock.json
+*lock.json
+*lock

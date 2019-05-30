@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import Generator from "yeoman-generator";
 import promptQuestions from "./utils/questions";
 import * as path from 'path';
@@ -62,7 +61,7 @@ export default class StarterGenerator extends Generator {
           }
           loading("CREATING", "Cooking your project ! Please wait ...")
           fs.readFile(
-            `./generators/app/templates/${answer.stack}/package.json`, {
+            `../generators/app/templates/${answer.stack}/package.json`, {
               encoding: 'utf-8'
             },
             async (err, data) => {
@@ -80,10 +79,7 @@ export default class StarterGenerator extends Generator {
                 this.pkgjson = {
                   ...pkgjsonFromTemplate
                 }
-
-
                 done()
-
               }
             });
         });

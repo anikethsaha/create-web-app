@@ -28,7 +28,6 @@ const questions : any= [{
     message: "Please Select Project Stack [ Required ] : ",
     choices: [
       "MERN ==> MongoDB + Express + React + Node",
-      "MEN  ==> MongoDB + Express + Node",
       "TMEN ==> Typescript + MongoDB + Express + Node",
       "MERNG ==> MongoDB + Express + React + Node + GraphQL (Not stable yet)"
     ],
