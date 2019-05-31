@@ -1,11 +1,11 @@
 import Generator from "yeoman-generator";
 import promptQuestions from "./utils/questions";
 import * as path from 'path';
-import {
+const {
   error,
   loading,
   info
-} from "prettycli"
+} = require("prettycli")
 import * as fs from 'fs';
 import {
   IAnswer
@@ -18,7 +18,7 @@ import {
   createPkgJsonWithParcel,
   createPkgJsonWithWebpack
 } from './utils/pkgjsonUtils'
-import * as CFonts from 'cfonts';
+const CFonts = require('cfonts');
 
 
 export default class StarterGenerator extends Generator {
@@ -49,7 +49,7 @@ export default class StarterGenerator extends Generator {
 
     return this.prompt(promptQuestions)
       .then(
-        (answer: IAnswer) => {
+        (answer: IAnswer) : void | PromiseLike<void> => {
           this.answers = answer;
           const tmppkgjsonFromAnswer: IPkgJson = {
             name: answer.projectName,

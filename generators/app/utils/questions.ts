@@ -1,10 +1,10 @@
 /* eslint-disable */
 
 
-const validate = (val): boolean | string => val.length > 0 ? true : "Please enter the name"
+const validate = (val : string): boolean | string => val.length > 0 ? true : "Please enter the name"
 
 
-const questions : any= [{
+const questions : Array<Object> = [{
     type: "input",
     name: "projectName",
     message: "Please Enter Your Project Name [ Required ] :  ",
@@ -32,7 +32,7 @@ const questions : any= [{
       "MERNG ==> MongoDB + Express + React + Node + GraphQL (Not stable yet)"
     ],
     validate,
-    filter : val => val.split("==>")[0].trim()
+    filter : (val : string) : string => val.split("==>")[0].trim()
   },
   {
     type: "rawlist",

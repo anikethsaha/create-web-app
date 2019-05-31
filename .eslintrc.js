@@ -65,46 +65,15 @@ module.exports = {
 			"error",
 			{
 				"resolvePaths": ["./packages"],
-				"allowModules": [
-					"webpack",
-					"@webpack-cli/generators",
-					"@webpack-cli/init",
-					"@webpack-cli/migrate",
-					"@webpack-cli/utils",
-					"@webpack-cli/generate-loader",
-					"@webpack-cli/generate-plugin",
-					"@webpack-cli/webpack-scaffold"
-				]
 			}
 		],
 		"node/no-unpublished-bin": "error",
 		"node/no-unpublished-require": [
-			"error",
-			{
-				"allowModules": [
-					"webpack",
-					"webpack-dev-server",
-					"@webpack-cli/generators",
-					"@webpack-cli/init",
-					"@webpack-cli/migrate",
-					"@webpack-cli/utils",
-					"@webpack-cli/generate-loader",
-					"@webpack-cli/generate-plugin",
-					"@webpack-cli/webpack-scaffold"
-				]
-			}
+			"error"
 		],
 		"node/no-extraneous-require": [
 			"error",
 			{
-				"allowModules": [
-					"@webpack-cli/migrate",
-					"@webpack-cli/generators",
-					"@webpack-cli/utils",
-					"@webpack-cli/generate-loader",
-					"@webpack-cli/generate-plugin",
-					"@webpack-cli/webpack-scaffold"
-				]
 			}
 		],
 		"eol-last": ["error", "always"],

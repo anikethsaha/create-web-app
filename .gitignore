@@ -8,3 +8,4 @@ generators/*.js
 generators/app/utils/*.js
 *lock.json
 *lock
+*.d.ts

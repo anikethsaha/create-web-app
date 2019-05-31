@@ -1,12 +1,37 @@
-# :rocket: Create Web App
+<p align="center">
 
-[![Build Status](https://travis-ci.org/buildtip/create-web-app.svg?branch=master)](https://travis-ci.org/buildtip/create-web-app)
-[![GitHub license](https://img.shields.io/github/license/buildtip/create-web-app.svg)](https://github.com/buildtip/create-web-app)
-[![npm version](https://badge.fury.io/js/%40buildtip%2Fcreate-web-app.svg)](https://badge.fury.io/js/%40buildtip%2Fcreate-web-app)
-[![NPM Downloads](https://img.shields.io/npm/dm/%40buildtip%2Fcreate-web-app.svg?style=flat)](https://www.npmjs.com/package/%40buildtip%2Fcreate-web-app)
-[![Join the chat at https://gitter.im/create-web-app/community](https://badges.gitter.im/create-web-app/community.svg)](https://gitter.im/create-web-app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-green.svg)](https://github.com/buildtip/create-web-app)
+  <img alt="logo" src="https://imgur.com/8SkRVHP.png" width="230px" />
 
+</p>
+<p align="center">
+<h2 align="center">Create Web App</h2>
+</p>
+
+<p align="center">
+ <a href="https://travis-ci.org/buildtip/create-web-app">
+    <img alt="Build Status" src="https://travis-ci.org/buildtip/create-web-app.svg?branch=master" />
+ </a>
+<a href="https://github.com/buildtip/create-web-app">
+    <img alt="Lic" src="https://img.shields.io/github/license/buildtip/create-web-app.svg" />
+ </a>
+<a href="https://badge.fury.io/js/%40buildtip%2Fcreate-web-app">
+    <img alt="NPM Version" src="https://badge.fury.io/js/%40buildtip%2Fcreate-web-app.svg" />
+ </a>
+
+<a href="https://www.npmjs.com/package/%40buildtip%2Fcreate-web-app">
+    <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/%40buildtip%2Fcreate-web-app.svg?style=flat" />
+ </a>
+<a href="https://gitter.im/create-web-app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+    <img alt="Join the chat at https://gitter.im/create-web-app/community" src="https://badges.gitter.im/create-web-app/community.svg" />
+ </a>
+
+<a href="https://github.com/buildtip/create-web-app">
+    <img alt="Renovate enabled" src="https://img.shields.io/badge/renovate-enabled-green.svg" />
+ </a>
+
+
+
+</p>
 
 > ### Under Development :warning:
 
@@ -137,7 +162,8 @@ $ node dist/cli
 
 
  ## Test
- ```bash
+
+```bash
 
 npm test
 
