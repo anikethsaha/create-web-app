@@ -1,5 +1,4 @@
 <p align="center">
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
   <img alt="logo" src="https://imgur.com/8SkRVHP.png" width="230px" />
 
@@ -30,13 +29,14 @@
     <img alt="Renovate enabled" src="https://img.shields.io/badge/renovate-enabled-green.svg" />
  </a>
 
+<a href="#contributors">
+    <img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" />
+ </a>
 
 
 </p>
 
 > ### Under Development :warning:
-
-
 
 
 ## Installation And Usage
