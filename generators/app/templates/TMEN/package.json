@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/chai": "4.1.7",
     "@types/chai-http": "4.2.0",
-    "@types/mocha": "5.2.6",
+    "@types/mocha": "5.2.7",
     "chai": "4.2.0",
     "chai-http": "4.3.0",
     "ejs-lint": "0.3.0",
