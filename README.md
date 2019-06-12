@@ -36,9 +36,6 @@
 
 </p>
 
-> ### Under Development :warning:
-
-
 ## Installation
 
 ```bash
@@ -219,11 +216,11 @@ $ node dist/cli
 
 ### For v1 release
 
-- Docs
-- Better CLI
-- More Tests
-- More Boilerplates
-- Code refactor
+- [ ] Docs
+- [x] Better CLI
+- [ ] More Tests
+- [ ] More Boilerplates
+- [x] Code refactor (Done Partially --> more to do)
 
 
 
