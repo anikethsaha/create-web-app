@@ -11,7 +11,7 @@ import { projectName } from "./utils/generator";
 const pkg = require("../package");
 notifier({ pkg }).notify();
 
-const prog = sade(projectName).version(pkg.version);
+const prog = sade("cwa").version(pkg.version);
 
 prog
   .command("list")
@@ -19,7 +19,7 @@ prog
   .action(list);
 prog
   .command("run [projectname]")
-  .describe("[WIP] Run the Project ")
+  .describe("[WIP] Gives the command to run the Project")
   .option("--src", "Please Mention the source if the default is changed","")
   .action(run);
 prog

@@ -39,7 +39,7 @@
 > ### Under Development :warning:
 
 
-## Installation And Usage
+## Installation
 
 ```bash
 # Recommended
@@ -54,8 +54,27 @@ $ npx @buildtip/create-web-app
 
 ```
 
+## Usage
+```bash
+$ cwa --help
 
+  Usage
+    $ cwa <command> [options]
 
+  Available Commands
+    list      List All The templates Available
+    run       [WIP] Gives the command to run the Project
+    create    create a project passing the template and your project name
+
+  For more info, run any command with the `--help` flag
+    $ cwa list --help
+    $ cwa run --help
+
+  Options
+    -v, --version    Displays current version
+    -h, --help       Displays this message
+
+```
 ## About :books:
 
 This package is a **simple** node cli tool based on `yeoman generator` which when run will **simply** ask you some **simple** question and then will generate a **simple** starter project to kickstart you development
@@ -72,8 +91,55 @@ More boilerplates are required for this project with different stacks.
 
 **Do Contribute with this boilerplates and new ones.**
 
+## Commands
+### ` $ cwa list `
+It lists the available Templates present as a project starters
+```bash
+$ cwa list --help
+  Description
+    List All The templates Available
+
+  Usage
+    $ cwa list [options]
+
+  Options
+    -h, --help    Displays this message
+
+```
 
 
+
+### ` $ cwa run [project-name] [--src]`
+It will give the accurates commands to run the projects and it will list the available commands present in the projects scripts
+```bash
+$ cwa run --help
+  Description
+    [WIP] Run the Project
+
+  Usage
+    $ cwa run [projectname] [options]
+
+  Options
+    --src         Please Mention the source if the default is changed  (default )
+    -h, --help    Displays this message
+```
+**[WIP]:** To run the command instead to displaying the steps
+
+### ` $ cwa create `
+It will run the generator which is creating the project based on few questions
+```bash
+$ cwa create --help
+  Description
+    create a project passing the template and your project name
+
+  Usage
+    $ create-web-app create [options]
+
+  Options
+    -h, --help    Displays this message
+
+
+```
 
 ## Status :newspaper:
 
