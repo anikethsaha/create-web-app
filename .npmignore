@@ -6,6 +6,8 @@ _tests_/
 *.ts
 generators/*.ts
 generators/utils/*.ts
+src/*.ts
+src/**.ts
 .travis.yml
 .eslint*
 .editorconfig

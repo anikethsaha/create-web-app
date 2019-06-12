@@ -1,6 +1,6 @@
 {
   "name": "@buildtip/create-web-app",
-  "version": "0.5.2",
+  "version": "1.0.0",
   "description": "Select your project type and use any boilerplate to get started",
   "homepage": "",
   "files": [
@@ -36,7 +36,7 @@
     "lint-staged": "8.2.0",
     "nodemon": "1.19.1",
     "parcel-bundler": "1.12.3",
-    "parcel-plugin-shebang": "1.2.5",
+    "parcel-plugin-shebang": "^1.2.5",
     "prettier": "1.18.2",
     "standard-version": "6.0.1",
     "typescript": "3.5.1",
@@ -50,8 +50,11 @@
     "@types/lodash": "^4.14.132",
     "cfonts": "^2.4.3",
     "chalk": "^2.1.0",
+    "glob-all": "^3.1.0",
     "lodash": "^4.17.11",
     "prettycli": "^1.4.3",
+    "sade": "^1.5.0",
+    "update-notifier": "^3.0.0",
     "yeoman-environment": "^2.3.4",
     "yeoman-generator": "^4.0.0"
   },
@@ -84,8 +87,8 @@
     "type:build": "tsc",
     "commit": "git-cz",
     "type:watch": "tsc -w",
-    "build": "parcel build --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js ",
-    "watch": "parcel watch --no-autoinstall index.ts --target node --out-dir dist --out-file cli.js "
+    "build": "parcel build --no-autoinstall ./src/index.ts --target node --out-dir dist --out-file cli.js ",
+    "watch": "parcel watch --no-autoinstall ./src/index.ts --target node --out-dir dist --out-file cli.js "
   },
   "repository": {
     "type": "git",

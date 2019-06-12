@@ -4,7 +4,7 @@
 	"jsRules": {},
 	"rules": {
 		"indent": [true, "tabs", 4],
-		"ban-types": [false],
+		"ban-types": [false]
 	},
 	"rulesDirectory": [],
 	"linterOptions": {
