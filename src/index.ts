@@ -8,7 +8,7 @@ import run from "./commands/run";
 import { projectName } from "./utils/generator";
 
 // tslint:disable-next-line: no-var-requires
-const pkg = require("../package");
+const pkg = require("../package.json");
 notifier({ pkg }).notify();
 
 const prog = sade("cwa").version(pkg.version);
