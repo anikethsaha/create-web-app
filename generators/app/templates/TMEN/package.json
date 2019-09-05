@@ -51,7 +51,7 @@
     "ejs-lint": "0.3.0",
     "mocha": "6.1.4",
     "ts-node": "8.2.0",
-    "tslint": "5.17.0",
+    "tslint": "5.19.0",
     "typescript": "3.5.1"
   }
 }
