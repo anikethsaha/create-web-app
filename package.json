@@ -44,7 +44,7 @@
     "yeoman-test": "2.0.0"
   },
   "engines": {
-    "npm": "6.9.1-next.0"
+    "npm": "6.11.3"
   },
   "dependencies": {
     "@types/lodash": "^4.14.132",
