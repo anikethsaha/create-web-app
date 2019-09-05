@@ -43,7 +43,7 @@
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
-    "@types/chai": "4.1.7",
+    "@types/chai": "4.2.1",
     "@types/chai-http": "4.2.0",
     "@types/mocha": "5.2.7",
     "chai": "4.2.0",
