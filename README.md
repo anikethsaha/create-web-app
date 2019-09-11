@@ -1,3 +1,5 @@
+> # :mega: Re-written of this package in a new project is coming. so no development are going to happen in this repo and package. Please refer [**plan for this project**](https://github.com/buildtip/create-web-app/issues/56)
+
 <p align="center">
 
   <img alt="logo" src="https://imgur.com/8SkRVHP.png" width="230px" />
