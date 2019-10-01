@@ -7,7 +7,7 @@
     "test": "npm run tslint && npm run ejslint && npm run mocha",
     "mocha": "mocha -r ts-node/register test/*.ts --timeout 10000  --exit",
     "start": "npm run serve",
-    "build": " npm run build-ts && npm run tslint && && npm run copy-static-assets",
+    "build": " npm run build-ts && npm run tslint && npm run copy-static-assets",
     "serve": "node dist/server.js",
     "watch-node": "nodemon dist/server.js",
     "build-ts": "tsc",
