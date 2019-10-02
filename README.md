@@ -203,6 +203,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://anikethsaha.github.io"><img src="https://avatars1.githubusercontent.com/u/26347874?v=4" width="100px;" alt="Anix"/><br /><sub><b>Anix</b></sub></a><br /><a href="#infra-anikethsaha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/buildtip/create-web-app/commits?author=anikethsaha" title="Tests">⚠️</a> <a href="#ideas-anikethsaha" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-anikethsaha" title="Maintenance">🚧</a> <a href="#design-anikethsaha" title="Design">🎨</a> <a href="https://github.com/buildtip/create-web-app/commits?author=anikethsaha" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/LOLdevelopr"><img src="https://avatars2.githubusercontent.com/u/50070488?v=4" width="100px;" alt="LOLDeveloper"/><br /><sub><b>LOLDeveloper</b></sub></a><br /><a href="https://github.com/buildtip/create-web-app/commits?author=LOLdevelopr" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://chan4lk.github.io/"><img src="https://avatars2.githubusercontent.com/u/3949546?v=4" width="100px;" alt="Chandima Ranaweera"/><br /><sub><b>Chandima Ranaweera</b></sub></a><br /><a href="https://github.com/buildtip/create-web-app/issues?q=author%3Achan4lk" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
