@@ -27,6 +27,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "chan4lk",
+      "name": "Chandima Ranaweera",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3949546?v=4",
+      "profile": "https://chan4lk.github.io/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
