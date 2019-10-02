@@ -18,6 +18,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "LOLdevelopr",
+      "name": "LOLDeveloper",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/50070488?v=4",
+      "profile": "https://github.com/LOLdevelopr",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
