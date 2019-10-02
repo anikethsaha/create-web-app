@@ -199,7 +199,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://anikethsaha.github.io"><img src="https://avatars1.githubusercontent.com/u/26347874?v=4" width="100px;" alt="Anix"/><br /><sub><b>Anix</b></sub></a><br /><a href="#infra-anikethsaha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/buildtip/create-web-app/commits?author=anikethsaha" title="Tests">⚠️</a> <a href="#ideas-anikethsaha" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-anikethsaha" title="Maintenance">🚧</a> <a href="#design-anikethsaha" title="Design">🎨</a> <a href="https://github.com/buildtip/create-web-app/commits?author=anikethsaha" title="Code">💻</a></td></tr></table>
+<table>
+  <tr>
+    <td align="center"><a href="http://anikethsaha.github.io"><img src="https://avatars1.githubusercontent.com/u/26347874?v=4" width="100px;" alt="Anix"/><br /><sub><b>Anix</b></sub></a><br /><a href="#infra-anikethsaha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/buildtip/create-web-app/commits?author=anikethsaha" title="Tests">⚠️</a> <a href="#ideas-anikethsaha" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-anikethsaha" title="Maintenance">🚧</a> <a href="#design-anikethsaha" title="Design">🎨</a> <a href="https://github.com/buildtip/create-web-app/commits?author=anikethsaha" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LOLdevelopr"><img src="https://avatars2.githubusercontent.com/u/50070488?v=4" width="100px;" alt="LOLDeveloper"/><br /><sub><b>LOLDeveloper</b></sub></a><br /><a href="https://github.com/buildtip/create-web-app/commits?author=LOLdevelopr" title="Documentation">📖</a></td>
+  </tr>
+</table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
